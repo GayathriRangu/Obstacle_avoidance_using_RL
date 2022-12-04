@@ -1,0 +1,33 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5051284713639798 0.5330363757016914 0.6787617031007971 1.8984835684888037
+  position -0.046753320556402383 -0.5361979002478353 2.056020681038947
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+WoodenBox {
+  translation -0.46 0.11 0.05
+  size 0.1 0.1 0.1
+  mass 2
+}
+WoodenBox {
+  translation 0.28 0.11 0.05
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+WoodenBox {
+  translation -0.17 -0.34 0.05
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+E-puck {
+  controller "q3"
+}
